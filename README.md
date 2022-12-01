@@ -9,7 +9,7 @@ minikube image build -t nginx-reverse-proxy .
 
 cd ..
 
-minikube image build -t react
+minikube image build -t react .
 
 cd kubetemplates/
 
